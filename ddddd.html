@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<select id="s" onchange="myFunction(this.value)">
+		<option selected="true" value=""></option>
+		<option>a</option>
+		<option>b</option>
+		<option>c</option>
+	</select>
+	<textarea id="t">
+		
+	</textarea>
+<script type="text/javascript">
+	var nb=0;
+function myFunction (v){
+	if(nb==0 ){
+	document.getElementById("t").value+=v;
+nb++;
+	}else{
+	document.getElementById("t").value+= ","+v;
+	
+}
+}
+	
+</script>
+</body>
+</html>

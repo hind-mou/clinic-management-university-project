@@ -66,31 +66,39 @@ This project follows a classic MVC-style organisation with separate layers for:
 
 ### Authentication Interface
 ![Authentication](screenshots/login.png)
+
 Secure login interface allowing users to authenticate using role-based credentials.
 
 ### Add Patient Interface
 ![Add Patient](screenshots/add-patient.png)
+
 Interface used by assistance staff to register new patients.
 
 ### Patient Medical Records
 ![Medical Records](screenshots/patient-records.png)
+
 Interface for consulting and managing patient medical files.
 
 ### Doctor Dashboard
 ![Doctor Menu](screenshots/doctor-menu.png)
+
 Dashboard providing doctors access to prescriptions, medicines, and statistics.
 
 ### Statistical Dashboards
 ![Patients by Age](screenshots/stats-age.png)
+
 Distribution of patients by age range.
 
 ![Consultations per Month](screenshots/stats-consultations.png)
+
 Monthly consultation statistics.
 
 ![Consultations by Visit Type](screenshots/stats-visit-type.png)
+
 Statistical representation of consultations grouped by visit type (consultation or follow-up).
 
 ![Patients per Doctor](screenshots/stats-doctor.png)
+
 Patient distribution per doctor.
 
 
